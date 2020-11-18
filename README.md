@@ -5,9 +5,10 @@ Link to the article: https://ismaeltrevi.medium.com/using-machine-learning-to-fi
 
 Image for post
 A few weeks ago, I wrote an article about using data science for meaningful data sets and could help the world become a better place. Now, let’s talk a little bit about other worlds. We can train machines to identify candidates for exoplanets with real datasets provided by NASA and Caltech. How cool is that? Thus, I decided to go on an adventure through the mysteries of the universe. My idea is to create a machine learning model that can predict if an observation is a real candidate for an exoplanet or not. The data was collected by the Kepler mission that revealed thousands of planets out of our Solar System. Unfortunately, the Kepler mission ended in 2018, but it gave us thousands of observations, so we can train our machines to find planets as well.
+
 And how did the Kepler telescope find planets so far from us if they can take a clear picture of Pluto from Earth? Well, it was able to find planets by looking for small dips in the brightness of a star when a planet transits in front of it. It is possible to measure the size of the planet based on the depth of the transit and the star’s size.
-Image for post
-Illustration of an exoplanet. Credit: Ricardo Ramirez
+
+
 For this article, I downloaded the most recent dataset from the Caltech website. However, if you feel adventurous, you can use NASA’s API and do some web scraping out of the fountain. I know I want to explore that soon, but for now, let’s keep things a little easier and use NASA’s and Caltech datasets. You can find a similar dataset on Kaggle. However, the dataset was uploaded three years ago and should not be updated. The best prediction on Kaggle got a 95% accuracy. To make things more straightforward, I will skip a few exploratory data analyses, but I shared the notebook’s complete version on my Github. You should have some Python and its main packages prior knowledge to run the following code. However, if you don’t know, you should be able to reproduce the same results running the notebook in full.
 First things first, let’s import some packages and print the dataset’s shape and a data frame of it. If you want to know more about the packages imported, they contain very resourceful documentation where you can learn more about them.
 
