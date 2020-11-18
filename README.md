@@ -3,7 +3,7 @@ Ismael Araujo
 
 Link to the article: https://ismaeltrevi.medium.com/using-machine-learning-to-find-exoplanets-with-nasas-dataset-bb818515e3b3
 
-Image for post
+
 A few weeks ago, I wrote an article about using data science for meaningful data sets and could help the world become a better place. Now, let’s talk a little bit about other worlds. We can train machines to identify candidates for exoplanets with real datasets provided by NASA and Caltech. How cool is that? Thus, I decided to go on an adventure through the mysteries of the universe. My idea is to create a machine learning model that can predict if an observation is a real candidate for an exoplanet or not. The data was collected by the Kepler mission that revealed thousands of planets out of our Solar System. Unfortunately, the Kepler mission ended in 2018, but it gave us thousands of observations, so we can train our machines to find planets as well.
 
 And how did the Kepler telescope find planets so far from us if they can take a clear picture of Pluto from Earth? Well, it was able to find planets by looking for small dips in the brightness of a star when a planet transits in front of it. It is possible to measure the size of the planet based on the depth of the transit and the star’s size.
